@@ -8,7 +8,9 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *head_tmp1, *head_tmp2, *aux1, *aux2;
 	int flag;
-	
+	/*
+	 * @flag: serves as indicator.
+	 */	
 	if (list)
 	{
 		head_tmp1 = *list;

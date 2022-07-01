@@ -1,6 +1,6 @@
 #include "sort.h"
 /**
- * insertion_sort_list - sorts int doubly linked list ascedng ordr Insertion sort algorithm.
+ * insertion_sort_list - ascedng ordr Insertion sort algthm.
  * @list: pointer to the list head.
  * Return: no return.
  **/
@@ -8,6 +8,7 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *head_tmp1, *head_tmp2, *aux1, *aux2;
 	int flag;
+	
 	if (list)
 	{
 		head_tmp1 = *list;

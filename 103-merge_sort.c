@@ -52,7 +52,7 @@ void merge_sort(int *array, size_t size)
 	int left[1000];
 	int right[1000];
 	/*
-	 * @mid: init in zero size_t. 
+	 * @mid: init in zero size_t.
 	 * @i: size_t var.
 	 * @left: int array size 1000.
 	 * @right: int array size 1000.

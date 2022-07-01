@@ -8,9 +8,6 @@ void insertion_sort_list(listint_t **list)
 {
 	listint_t *head_tmp1, *head_tmp2, *aux1, *aux2;
 	int flag;
-	/*
-	 * listint_t aux ptrs.
-	 */
 	if (list)
 	{
 		head_tmp1 = *list;

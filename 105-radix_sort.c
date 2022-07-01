@@ -1,6 +1,7 @@
 #include "sort.h"
 /**
  * max_val - gets max value from array.
+ * Description: as above.
  * @array: pointer to array.
  * @size: size of the array.
  * Return: max value from array.
@@ -10,8 +11,8 @@ int max_val(int *array, size_t size)
 	int max = array[0];
 	size_t i;
 	/*
-	 * @max: with initial value of array.
-	 * @i: counter.
+	 * @max: max as first of array.
+	 * @i: size_t type.
 	 */
 	for (i = 0; i < size; i++)
 	{
@@ -35,9 +36,9 @@ void radix_sort(int *array, size_t size)
 	int brews[20] = {0};
 	/*
 	 * @new_arr: ptr to int.
-	 * @i: counter, @max: of array, @e: in 1.
-	 * @tam: size.
-	 * @brews: array int.
+	 * @i: counter, @max: as value, @e: init 1.
+	 * @tam: in size.
+	 * @brews: array.
 	 */
 	if (!array || size < 2)
 		return;

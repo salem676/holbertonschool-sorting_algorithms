@@ -1,7 +1,6 @@
 #include "sort.h"
 /**
- * insertion_sort_list - sorts a doubly linked list of integers
- * in ascending order using the Insertion sort ailgorithm.
+ * insertion_sort_list - sorts int doubly linked list ascedng ordr Insertion sort algorithm.
  * @list: pointer to the list head.
  * Return: no return.
  **/
@@ -10,10 +9,7 @@ void insertion_sort_list(listint_t **list)
 	listint_t *head_tmp1, *head_tmp2, *aux1, *aux2;
 	int flag;
 	/*
-	 * @head_tmp1: listint_t type.
-	 * @head_tmp2: listint_t type.
-	 * @aux1: as above.
-	 * @aux2: as above.
+	 * listint_t aux ptrs.
 	 */
 	if (list)
 	{
